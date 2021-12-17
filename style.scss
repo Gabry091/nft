@@ -51,6 +51,9 @@ border-radius: 10px;
     transition: .5s ease;
   }
 
+
+}
+
 #image1cont:hover{
   #eye{
     opacity: 1;
@@ -58,9 +61,8 @@ border-radius: 10px;
 
   #image1{
     opacity: 0.3;
-    background-color: transparent;
   }
-}
+  
 }
 
 
@@ -132,6 +134,11 @@ hr{
 }
 
 b{
+  color: hsl(0, 0%, 100%);
+}
+
+a{
+  text-decoration: none;
   color: hsl(0, 0%, 100%);
 }
 }
