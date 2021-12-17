@@ -1,0 +1,137 @@
+$ombra: #0C1729;
+/*end sass variables*/
+
+/* new font: smiley-thin */
+@font-face {
+    font-family: 'Smiley-Thin';
+    src:url('Smiley-Thin.ttf.woff') format('woff'),
+        url('Smiley-Thin.ttf.svg#Smiley-Thin') format('svg'),
+        url('Smiley-Thin.ttf.eot'),
+        url('Smiley-Thin.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*end new font: smiley-thin*/
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+#head-div{
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 450px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 20px 20px $ombra;
+  
+#image1cont{
+  
+  #image1{
+margin: 20px;
+margin-left: 16px;
+width: 220px;
+height: 220px;
+border-radius: 10px;
+
+  }
+
+  #eye{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+#image1cont:hover{
+  #eye{
+    opacity: 1;
+  }
+
+  #image1{
+    opacity: 0.3;
+    background-color: transparent;
+  }
+}
+}
+
+
+
+  #titleh3{
+      color: hsl(0, 0%, 100%);
+      font-family: 'Outfit';
+      margin-left: 20px;
+      margin-top: 0px;
+      font-weight: 300;
+  }
+
+  #description{
+      color: hsl(215, 51%, 70%);
+      font-family: 'Smiley-Thin';
+      font-size: 15px;
+      margin-left: 10px;
+      margin-top: 5px;
+      
+  }
+
+  #ethereum{
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  #numethe{
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    display: inline;
+    font-family: 'Outfit';
+    font-size: 13px;
+
+  }
+
+#clock{
+  margin-left: 60px;
+}
+
+#day-left{
+      color: hsl(215, 51%, 70%);
+    font-weight: 100;
+    display: inline;
+    font-family: 'Outfit';
+    font-size: 13px;
+}
+
+hr{
+  color: hsl(215, 32%, 27%);
+  width: 200px;
+}
+
+#avatar{
+  border-radius: 40px;
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+#creation-of{
+  display: inline;
+  color: hsl(215, 51%, 70%);
+  font-weight: 100;
+  font-family: 'Outfit';
+  font-size: 13px;
+  position: absolute;
+  top: 400px;
+}
+
+b{
+  color: hsl(0, 0%, 100%);
+}
+}
